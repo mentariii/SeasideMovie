@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".search">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Search"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content"/>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="50dp"
+        android:padding="20dp"
+        app:cardBackgroundColor="#808080"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        app:cardCornerRadius="25dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Search.."
+            android:textColor="@color/white"
+            android:layout_marginLeft="60dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="55dp"
+                app:cardCornerRadius="20dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="#26808080"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/ic_baseline_search_24"/>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+       </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Browse tags"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="110dp"
+                    android:id="@+id/tag_thlr"
+                    android:layout_marginLeft="10dp"
+                    app:cardBackgroundColor="#33808080"
+                    app:cardCornerRadius="10dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="60dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Thiller"
+                            android:textSize="17dp"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="@color/white"
+                            android:gravity="center"
+                            android:layout_height="90dp"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="115dp"
+                            android:orientation="horizontal"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/thiller_tag"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="110dp"
+                    android:id="@+id/tag_fntsy"
+                    android:layout_marginLeft="10dp"
+                    app:cardBackgroundColor="#33808080"
+                    app:cardCornerRadius="10dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="70dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:text="Fantasy"
+                                android:textSize="17dp"
+                                android:layout_marginLeft="10dp"
+                                android:textColor="@color/white"
+                                android:gravity="center"
+                                android:layout_height="90dp"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="115dp"
+                            android:orientation="horizontal"
+                            android:layout_gravity="center"
+                            android:gravity="left"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginTop="15dp"
+                                android:src="@drawable/fantasy_tag"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="150dp"
+                        android:layout_height="110dp"
+                        android:id="@+id/tag_rmnce"
+                        android:layout_marginLeft="10dp"
+                        app:cardBackgroundColor="#33808080"
+                        app:cardCornerRadius="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="90dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:text="Romance"
+                                    android:textSize="17dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:textColor="@color/white"
+                                    android:gravity="center"
+                                    android:layout_height="90dp"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="115dp"
+                                android:orientation="horizontal"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:layout_marginLeft="-10dp"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:layout_width="80dp"
+                                    android:layout_height="80dp"
+                                    android:layout_marginRight="50dp"
+                                    android:layout_marginTop="10dp"
+                                    android:src="@drawable/romance_tag"/>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="150dp"
+                        android:layout_height="110dp"
+                        android:id="@+id/tag_hrr"
+                        android:layout_marginLeft="10dp"
+                        app:cardBackgroundColor="#33808080"
+                        app:cardCornerRadius="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="80dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:text="Horror"
+                                    android:textSize="17dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:textColor="@color/white"
+                                    android:gravity="center"
+                                    android:layout_height="90dp"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="115dp"
+                                android:orientation="horizontal"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:layout_marginLeft="-30dp"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:layout_width="80dp"
+                                    android:layout_height="80dp"
+                                    android:layout_marginTop="10dp"
+                                    android:src="@drawable/horror_tag"/>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="150dp"
+                        android:layout_height="110dp"
+                        android:id="@+id/tag_mster"
+                        android:layout_marginLeft="10dp"
+                        app:cardBackgroundColor="#33808080"
+                        app:cardCornerRadius="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="80dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:text="Mystery"
+                                    android:textSize="17dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:textColor="@color/white"
+                                    android:gravity="center"
+                                    android:layout_height="90dp"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="115dp"
+                                android:orientation="horizontal"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:layout_marginLeft="-30dp"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:layout_width="80dp"
+                                    android:layout_height="80dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:src="@drawable/mystery_tag"/>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="150dp"
+                        android:layout_height="110dp"
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/tag_cmdy"
+                        app:cardBackgroundColor="#33808080"
+                        app:cardCornerRadius="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="80dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:text="Comedy "
+                                    android:textSize="17dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:textColor="@color/white"
+                                    android:gravity="center"
+                                    android:layout_height="90dp"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="115dp"
+                                android:orientation="horizontal"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:layout_marginLeft="-30dp"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:layout_width="80dp"
+                                    android:layout_height="80dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:src="@drawable/comedy_tag"/>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="150dp"
+                        android:layout_height="110dp"
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/tag_advn"
+                        app:cardBackgroundColor="#33808080"
+                        app:cardCornerRadius="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="90dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:text="Adventure"
+                                    android:textSize="17dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:textColor="@color/white"
+                                    android:gravity="center"
+                                    android:layout_height="90dp"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="115dp"
+                                android:orientation="horizontal"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:layout_marginLeft="-25dp"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:layout_width="80dp"
+                                    android:layout_height="80dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:src="@drawable/adventure_tag"/>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="150dp"
+                            android:layout_height="110dp"
+                            android:id="@+id/tag_act"
+                            android:layout_marginLeft="10dp"
+                            app:cardBackgroundColor="#33808080"
+                            app:cardCornerRadius="10dp">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="80dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_height="match_parent">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:text="Action "
+                                        android:textSize="17dp"
+                                        android:layout_marginLeft="10dp"
+                                        android:textColor="@color/white"
+                                        android:gravity="center"
+                                        android:layout_height="90dp"/>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="115dp"
+                                    android:orientation="horizontal"
+                                    android:layout_gravity="center"
+                                    android:gravity="center"
+                                    android:layout_marginLeft="-30dp"
+                                    android:layout_height="match_parent">
+
+                                    <ImageView
+                                        android:layout_width="80dp"
+                                        android:layout_height="80dp"
+
+                                        android:layout_marginTop="10dp"
+                                        android:layout_marginLeft="10dp"
+                                        android:src="@drawable/action_tag"/>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:orientation="horizontal">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="150dp"
+                            android:layout_height="110dp"
+                            android:layout_marginLeft="10dp"
+                            android:id="@+id/tag_anm"
+                            app:cardBackgroundColor="#33808080"
+                            app:cardCornerRadius="10dp">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="90dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_height="match_parent">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:text="Animation "
+                                        android:textSize="17dp"
+                                        android:layout_marginLeft="10dp"
+                                        android:textColor="@color/white"
+                                        android:gravity="center"
+                                        android:layout_height="90dp"/>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="115dp"
+                                    android:orientation="horizontal"
+                                    android:layout_gravity="center"
+                                    android:gravity="center"
+                                    android:layout_marginLeft="-27dp"
+                                    android:layout_height="match_parent">
+
+                                    <ImageView
+                                        android:layout_width="80dp"
+                                        android:layout_height="80dp"
+                                        android:layout_marginRight="10dp"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_marginLeft="10dp"
+                                        android:src="@drawable/animation_tag"/>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="150dp"
+                            android:layout_height="110dp"
+                            android:id="@+id/tag_drm"
+                            android:layout_marginLeft="10dp"
+                            app:cardBackgroundColor="#33808080"
+                            app:cardCornerRadius="10dp">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="80dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_height="match_parent">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:text="Drama"
+                                        android:textSize="17dp"
+                                        android:layout_marginLeft="10dp"
+                                        android:textColor="@color/white"
+                                        android:gravity="center"
+                                        android:layout_height="90dp"/>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="115dp"
+                                    android:orientation="horizontal"
+                                    android:layout_gravity="center"
+                                    android:gravity="center"
+                                    android:layout_marginLeft="-35dp"
+                                    android:layout_height="match_parent">
+
+                                    <ImageView
+                                        android:layout_width="80dp"
+                                        android:layout_height="80dp"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_marginLeft="10dp"
+                                        android:src="@drawable/drama_tag"/>
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </androidx.cardview.widget.CardView>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

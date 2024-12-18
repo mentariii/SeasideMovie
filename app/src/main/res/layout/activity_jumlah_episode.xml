@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#4c4c4c"
+
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".jumlahEpisode">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/back"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="right"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/share"/>
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/menu_cerita"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_marginTop="2dp"
+            android:elevation="15dp"
+            app:cardBackgroundColor="#4c4c4c"
+            app:cardCornerRadius="10dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="130dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/gifted"
+
+                    android:layout_marginBottom="10dp"
+                    android:layout_height="180dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The Gifted "
+                    android:textColor="@color/white"
+                    android:layout_marginTop="10dp"
+
+                    android:gravity="center"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="GMMTV"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:textSize="11dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+
+
+                    android:layout_marginTop="10dp"
+                    android:background="#808080"/>
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#73808080"
+                        android:orientation="vertical">
+
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginLeft="18dp"
+                            android:text="Episode 1"
+                            android:id="@+id/tv_gteps1"
+                            android:textColor="@color/white"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginLeft="18dp"
+                            android:text="Episode 2"
+                            android:id="@+id/tv_gteps2"
+                            android:textColor="@color/white"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginLeft="18dp"
+                            android:text="Episode 3"
+                            android:id="@+id/tv_gteps3"
+                            android:textColor="@color/white"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginLeft="18dp"
+                            android:text="Episode 4"
+                            android:id="@+id/tv_gteps4"
+                            android:textColor="@color/white"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginLeft="18dp"
+                            android:text="Episode 5"
+                            android:id="@+id/tv_gteps5"
+                            android:textColor="@color/white"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginLeft="18dp"
+                            android:text="Episode 6"
+                            android:id="@+id/tv_gteps6"
+                            android:textColor="@color/white"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginLeft="18dp"
+                            android:text="Episode 7"
+                            android:id="@+id/tv_gteps7"
+                            android:textColor="@color/white"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginLeft="18dp"
+                            android:text="Episode 8"
+                            android:id="@+id/tv_gteps8"
+                            android:textColor="@color/white"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginLeft="18dp"
+                            android:text="Episode 9"
+                            android:id="@+id/tv_gteps9"
+                            android:textColor="@color/white"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginLeft="18dp"
+                            android:text="Episode 10"
+                            android:id="@+id/tv_gteps10"
+                            android:textColor="@color/white"/>
+                        v
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginLeft="18dp"
+                            android:text="Episode 11"
+                            android:id="@+id/tv_gteps11"
+                            android:textColor="@color/white"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginLeft="18dp"
+                            android:text="Episode 12"
+                            android:id="@+id/tv_gteps12"
+                            android:textColor="@color/white"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginLeft="18dp"
+                            android:text="Episode 13"
+                            android:id="@+id/tv_gteps13"
+                            android:textColor="@color/white"/>
+
+
+                    </LinearLayout>
+
+                </ScrollView>
+
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+
+</LinearLayout>

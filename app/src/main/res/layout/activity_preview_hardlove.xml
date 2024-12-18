@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".preview_hardlove">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@color/black"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:id="@+id/iv_back"
+                    android:src="@drawable/back"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:gravity="right"
+                android:layout_marginRight="15dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:id="@+id/ini_menu"
+                    android:src="@drawable/menu_cerita"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:scrollbars="none"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:scrollbars="none"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_marginLeft="10dp"
+                                app:cardCornerRadius="10dp"
+
+                                app:cardBackgroundColor="@color/black"
+                                android:layout_width="80dp"
+                                android:layout_height="130dp">
+
+                                <ImageView
+                                    android:layout_width="80dp"
+                                    android:layout_height="130dp"
+                                    android:id="@+id/iv_heri"
+                                    android:src="@drawable/nina"/>
+
+
+
+                            </androidx.cardview.widget.CardView>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/white"
+                                android:text="Nina"
+                                android:textAlignment="center"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_marginLeft="10dp"
+                                app:cardCornerRadius="10dp"
+
+                                app:cardBackgroundColor="@color/black"
+                                android:layout_width="80dp"
+                                android:layout_height="130dp">
+
+                                <ImageView
+                                    android:layout_width="80dp"
+                                    android:layout_height="130dp"
+                                    android:id="@+id/iv_w"
+                                    android:src="@drawable/darren"/>
+
+
+
+                            </androidx.cardview.widget.CardView>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/white"
+                                android:text="Darren"
+                                android:textAlignment="center"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_marginLeft="10dp"
+                                app:cardCornerRadius="10dp"
+
+                                app:cardBackgroundColor="@color/black"
+                                android:layout_width="80dp"
+                                android:layout_height="130dp">
+
+                                <ImageView
+                                    android:layout_width="80dp"
+                                    android:layout_height="130dp"
+                                    android:id="@+id/iv_Harit"
+                                    android:src="@drawable/mikaela"/>
+
+
+
+                            </androidx.cardview.widget.CardView>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/white"
+                                android:text="Mikaela"
+                                android:textAlignment="center"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_marginLeft="10dp"
+                                app:cardCornerRadius="10dp"
+
+                                app:cardBackgroundColor="@color/black"
+                                android:layout_width="80dp"
+                                android:layout_height="130dp">
+
+                                <ImageView
+                                    android:layout_width="80dp"
+                                    android:layout_height="130dp"
+                                    android:id="@+id/iv_gun"
+                                    android:src="@drawable/jimmy"/>
+
+
+
+                            </androidx.cardview.widget.CardView>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/white"
+                                android:text="Jimmy"
+                                android:textAlignment="center"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_marginLeft="10dp"
+                                app:cardCornerRadius="10dp"
+
+                                app:cardBackgroundColor="@color/black"
+                                android:layout_width="80dp"
+                                android:layout_height="130dp">
+
+                                <ImageView
+                                    android:layout_width="80dp"
+                                    android:layout_height="130dp"
+                                    android:id="@+id/iv_Puimek"
+                                    android:src="@drawable/harry"/>
+
+
+
+                            </androidx.cardview.widget.CardView>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/white"
+                                android:text="Harry"
+                                android:textAlignment="center"/>
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        app:civ_border_width="1dp"
+                        android:layout_gravity="center"
+                        app:civ_border_color="@color/white"
+                        android:src="@drawable/mcg_logo"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:textSize="23sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:text="Love Hard (2021)"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        android:textStyle="italic"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:text="Trailer"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:textSize="15sp"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:text="McG ~ United States ~ 105 min"/>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="#808080"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="Love Hard (2021) | [Official Trailer]"
+                        android:textColor="@color/white"/>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="7dp">
+                        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                            android:layout_width="match_parent"
+                            android:layout_height="300dp"
+                            app:videoId="3boMRfx6cjE"
+                            app:autoPlay="false" />
+                    </androidx.cardview.widget.CardView>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="19dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:text="Similar"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"/>
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:scrollbars="none"
+                        android:layout_height="match_parent">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginLeft="10dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="300dp"
+                                android:layout_height="200dp"
+                                android:layout_marginLeft="10dp"
+                                android:src="@drawable/perfectland_fix"/>
+
+                            <ImageView
+                                android:layout_width="300dp"
+                                android:layout_height="200dp"
+                                android:layout_marginLeft="20dp"
+                                android:src="@drawable/frozenland_fix"/>
+
+
+
+
+                        </LinearLayout>
+                    </HorizontalScrollView>
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+</LinearLayout>

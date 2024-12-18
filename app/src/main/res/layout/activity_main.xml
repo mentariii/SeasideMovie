@@ -1,0 +1,1492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/lay1"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Home"
+                android:textAlignment="center"
+                android:id="@+id/tes"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:layout_width="35dp"
+                android:id="@+id/tombol_cari"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="-1dp"
+                android:background="@color/black"
+                android:src="@drawable/icon_search"
+                android:layout_height="35dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:gravity="right">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/btn_prem"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="130dp"
+                    android:layout_height="35dp"
+                    android:padding="5dp"
+                    app:cardCornerRadius="20dp"
+                    android:textSize="12sp"
+                    app:cardBackgroundColor="#ec5526">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:gravity="center"
+                        android:layout_marginTop="3dp"
+                        android:textAlignment="center"
+                        android:padding="5dp"
+                        android:textStyle="bold"
+                        android:text="TRY PREMIUM"/>
+
+                </androidx.cardview.widget.CardView>
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:id="@+id/device"
+                android:src="@drawable/ic_baseline_cast_24"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="2dp"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                app:civ_border_width="1dp"
+                android:id="@+id/profile"
+                android:layout_marginRight="10dp"
+                app:civ_border_color="@color/white"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/sylus"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="20dp"
+            android:background="#808080"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:scrollbars="none"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:scrollbars="none"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Death’s Game"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@color/white"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_width="170dp"
+                        android:textColor="#808080"
+                        android:textSize="15sp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="Kematian datang untuk menghukumnya."
+                        android:layout_height="wrap_content"/>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="250dp"
+                        app:cardCornerRadius="10dp"
+                        android:id="@+id/cvthegifted"
+                        app:cardBackgroundColor="@color/black"
+                        android:layout_height="150dp">
+
+                        <ImageView
+                            android:layout_width="250dp"
+                            android:layout_height="150dp"
+                            android:id="@+id/iv_thegifted"
+                            android:layout_marginLeft="5dp"
+                            android:src="@drawable/deathsgame_ls" />
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="15dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="A Shop for Killers"
+                        android:textSize="20sp"
+                        android:textColor="@color/white"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_width="170dp"
+                        android:textColor="#808080"
+                        android:textSize="15sp"
+                        android:layout_marginBottom="5dp"
+                        android:text="Hidupnya berubah drastis karena pamannya."
+                        android:layout_height="wrap_content"/>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="250dp"
+                        app:cardCornerRadius="5dp"
+                        app:cardBackgroundColor="@color/black"
+                        android:layout_height="150dp">
+                        <ImageView
+                            android:layout_width="250dp"
+                            android:id="@+id/iv_insidious"
+                            android:src="@drawable/ashopforkiller_ls"
+                            android:layout_height="150dp"/>
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="15dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="My Name"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="1dp"
+                        android:textColor="@color/white"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_width="170dp"
+                        android:textColor="#808080"
+                        android:textSize="15sp"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="wanita yang membalas dendam ayahnya."
+                        android:layout_height="wrap_content"/>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="250dp"
+                        app:cardCornerRadius="5dp"
+                        app:cardBackgroundColor="@color/black"
+                        android:layout_height="150dp">
+
+                        <ImageView
+                            android:layout_width="250dp"
+                            android:layout_height="match_parent"
+                            android:id="@+id/iv_myname"
+                            android:src="@drawable/mynameland_fix" />
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="15dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="He Is Psychometric"
+                        android:textSize="20sp"
+                        android:textColor="@color/white"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_width="170dp"
+                        android:textColor="#808080"
+                        android:textSize="15sp"
+                        android:layout_marginBottom="5dp"
+                        android:text="Anak lelaki yang mampu membaca rahasia orang"
+                        android:layout_height="wrap_content"/>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="250dp"
+                        app:cardCornerRadius="5dp"
+                        app:cardBackgroundColor="@color/black"
+                        android:layout_height="150dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="149dp"
+                            android:id="@+id/iv_frozen2"
+                            android:src="@drawable/heispsycomeric_ls" />
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="15dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Night Has Come"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="1dp"
+                        android:textColor="@color/white"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_width="170dp"
+                        android:textColor="#808080"
+                        android:textSize="15sp"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="Mereka dipaksa untuk bermain permainan."
+                        android:layout_height="wrap_content"/>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="250dp"
+                        app:cardCornerRadius="5dp"
+                        app:cardBackgroundColor="@color/black"
+                        android:layout_height="150dp">
+
+                        <ImageView
+                            android:layout_width="250dp"
+                            android:id="@+id/iv_blacklist"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/nighthascome_ls" />
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:scrollbars="none"
+                    android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/tag_horror"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="100dp"
+                    android:layout_height="35dp"
+                    android:padding="5dp"
+                    app:cardCornerRadius="20dp"
+                    android:textSize="12sp"
+                    app:cardBackgroundColor="#2666ffe2">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"
+                        android:gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:textAlignment="center"
+                        android:padding="5dp"
+                        android:textStyle="bold"
+                        android:text="#HORROR"/>
+
+                </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/tag_animation"
+                        android:textColor="@color/white"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="100dp"
+                        android:layout_height="35dp"
+                        android:padding="5dp"
+                        app:cardCornerRadius="20dp"
+                        android:textSize="12sp"
+                        app:cardBackgroundColor="#2666ffe2">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+                            android:gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:textAlignment="center"
+                            android:padding="5dp"
+                            android:textStyle="bold"
+                            android:text="#ANIMATION"/>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/tag_fantasy"
+                        android:textColor="@color/white"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="100dp"
+                        android:layout_height="35dp"
+                        android:padding="5dp"
+                        app:cardCornerRadius="20dp"
+                        android:textSize="12sp"
+                        app:cardBackgroundColor="#2666ffe2">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+                            android:gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:textAlignment="center"
+                            android:padding="5dp"
+                            android:textStyle="bold"
+                            android:text="#FANTASY"/>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/tag_romance"
+                        android:textColor="@color/white"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="100dp"
+                        android:layout_height="35dp"
+                        android:padding="5dp"
+                        app:cardCornerRadius="20dp"
+                        android:textSize="12sp"
+                        app:cardBackgroundColor="#2666ffe2">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+                            android:gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:textAlignment="center"
+                            android:padding="5dp"
+                            android:textStyle="bold"
+                            android:text="#ROMANCE"/>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="15dp"
+                        android:textSize="12sp"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/tag_thiller"
+                            android:textColor="@color/white"
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="100dp"
+                            android:layout_height="35dp"
+                            android:padding="5dp"
+                            app:cardCornerRadius="20dp"
+                            android:textSize="12sp"
+                            app:cardBackgroundColor="#2666ffe2">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/white"
+                                android:textSize="12sp"
+                                android:gravity="center"
+                                android:layout_marginTop="5dp"
+                                android:textAlignment="center"
+                                android:padding="5dp"
+                                android:textStyle="bold"
+                                android:text="#THILLER"/>
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/tag_mystery"
+                            android:textColor="@color/white"
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="100dp"
+                            android:layout_height="35dp"
+                            android:padding="5dp"
+                            app:cardCornerRadius="20dp"
+                            android:textSize="12sp"
+                            app:cardBackgroundColor="#2666ffe2">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/white"
+                                android:textSize="12sp"
+                                android:gravity="center"
+                                android:layout_marginTop="5dp"
+                                android:textAlignment="center"
+                                android:padding="5dp"
+                                android:textStyle="bold"
+                                android:text="#MYSTERY"/>
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/tag_comedy"
+                            android:textColor="@color/white"
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="100dp"
+                            android:layout_height="35dp"
+                            android:padding="5dp"
+                            app:cardCornerRadius="20dp"
+                            android:textSize="12sp"
+                            app:cardBackgroundColor="#2666ffe2">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/white"
+                                android:textSize="12sp"
+                                android:gravity="center"
+                                android:layout_marginTop="5dp"
+                                android:textAlignment="center"
+                                android:padding="5dp"
+                                android:textStyle="bold"
+                                android:text="#COMEDY"/>
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/tag_action"
+                            android:textColor="@color/white"
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="100dp"
+                            android:layout_height="35dp"
+                            android:padding="5dp"
+                            app:cardCornerRadius="20dp"
+                            android:textSize="12sp"
+                            app:cardBackgroundColor="#2666ffe2">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/white"
+                                android:textSize="12sp"
+                                android:gravity="center"
+                                android:layout_marginTop="5dp"
+                                android:textAlignment="center"
+                                android:padding="5dp"
+                                android:textStyle="bold"
+                                android:text="#ACTION"/>
+
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                </LinearLayout>
+                </HorizontalScrollView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="23sp"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="@color/white"
+                            android:layout_marginBottom="15dp"
+                            android:textStyle="bold"
+                            android:text="Top Series For You"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <HorizontalScrollView
+                                android:layout_width="match_parent"
+                                android:scrollbars="none"
+                                android:layout_height="match_parent">
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_marginLeft="10dp"
+                                    app:cardCornerRadius="10dp"
+                                    app:cardBackgroundColor="@color/black"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                    <ImageView
+                                        android:layout_width="100dp"
+                                        android:layout_height="150dp"
+                                        android:id="@+id/iv_heri"
+                                        android:src="@drawable/akillerparadox_pt"/>
+
+                                </androidx.cardview.widget.CardView>
+                                <androidx.cardview.widget.CardView
+                                    android:layout_marginLeft="10dp"
+                                    app:cardCornerRadius="10dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+                                <androidx.cardview.widget.CardView
+                                    android:layout_marginLeft="10dp"
+                                    app:cardCornerRadius="10dp"
+                                    app:cardBackgroundColor="@color/black"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                    <ImageView
+                                        android:layout_width="100dp"
+                                        android:layout_height="150dp"
+                                        android:id="@+id/iv_alice"
+                                        android:src="@drawable/gyeongsongcreature_pt"/>
+
+                                </androidx.cardview.widget.CardView>
+                                <androidx.cardview.widget.CardView
+                                    android:layout_marginLeft="10dp"
+                                    app:cardCornerRadius="10dp"
+                                    app:cardBackgroundColor="@color/black"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                    <ImageView
+                                        android:layout_width="100dp"
+                                        android:layout_height="150dp"
+                                        android:id="@+id/iv_perfect"
+                                        android:src="@drawable/flexxcrop_pt"/>
+
+                                </androidx.cardview.widget.CardView>
+                                <androidx.cardview.widget.CardView
+                                    android:layout_marginLeft="10dp"
+                                    app:cardCornerRadius="10dp"
+                                    app:cardBackgroundColor="@color/black"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                    <ImageView
+                                        android:layout_width="100dp"
+                                        android:layout_height="150dp"
+                                        android:id="@+id/iv_hardlove"
+                                        android:src="@drawable/hierarchy_pt"/>
+
+                                </androidx.cardview.widget.CardView>
+                                <androidx.cardview.widget.CardView
+                                    android:layout_marginLeft="10dp"
+                                    app:cardCornerRadius="10dp"
+                                    app:cardBackgroundColor="@color/black"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                    <ImageView
+                                        android:layout_width="100dp"
+                                        android:layout_height="150dp"
+                                        android:id="@+id/iv_wakanda"
+                                        android:src="@drawable/lovesongforillusion_pt"/>
+
+                                </androidx.cardview.widget.CardView>
+
+                            </LinearLayout>
+
+                            </HorizontalScrollView>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="15dp"
+                                android:layout_marginLeft="15dp"
+                                android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="A Killer Paradox"
+                                android:layout_gravity="left"
+                                android:textSize="15sp"
+                                android:textColor="@color/white"/>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="right"
+                                    android:gravity="right">
+                            <ImageView
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
+                                android:layout_marginRight="10dp"
+                                android:id="@+id/ini_menu"
+                                android:src="@drawable/menu_cerita"/>
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="15dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="25dp"
+                                    android:layout_height="25dp"
+                                    android:layout_marginTop="5dp"
+                                    android:id="@+id/list"
+                                    android:src="@drawable/list_jumlah"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="8 Episode"
+                                    android:layout_marginTop="2dp"
+                                    android:textColor="@color/white"
+                                    android:layout_marginLeft="5dp"/>
+
+                                <androidx.appcompat.widget.AppCompatButton
+                                    android:layout_width="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:text="completed"
+                                    android:textSize="10sp"
+                                    android:id="@+id/complete"
+                                    android:background="@drawable/button_status"
+                                    android:layout_height="35dp"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="10dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:id="@+id/dec1"
+                                android:text="Seorang mahasiswa biasa, yang bertengkar dengan seorang pelanggan saat bekerja paruh waktu di sebuah toko serba ada pada malam hari....."
+                                android:textColor="@color/white" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="25dp"
+                                android:id="@+id/dec2"
+                                android:text=" Seorang detektif mulai mengejar Lee Tang."
+                                android:textColor="@color/white"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="25dp"
+                                android:text="More details..."
+                                android:id="@+id/tv_more"
+                                android:layout_gravity="right"
+                                android:textStyle="bold"
+                                android:gravity="right"
+                                android:textColor="@color/white"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="25dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:text="You'll Also Like"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:textSize="15sp"
+                        android:text="promoted films"
+                        android:layout_marginBottom="20dp"
+                        android:textColor="@color/white"/>
+
+                    <HorizontalScrollView
+                        android:layout_width="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:scrollbars="none"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="260dp"
+                            android:layout_height="170dp"
+                            android:layout_marginLeft="20dp"
+                            android:orientation="horizontal">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="wrap_content"
+                                app:cardCornerRadius="8dp"
+                                android:id="@+id/cv_myname"
+                                app:cardBackgroundColor="#33808080"
+                                android:layout_height="wrap_content">
+                            <LinearLayout
+                                android:layout_width="230dp"
+                                android:layout_height="150dp"
+                                android:background="#33808080"
+                                android:orientation="horizontal">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="88dp"
+                                app:cardCornerRadius="5dp"
+                                app:cardElevation="8dp"
+                                android:layout_marginTop="5dp"
+                                app:cardBackgroundColor="#00808080"
+                                android:layout_marginLeft="10dp"
+                                android:layout_height="138dp">
+
+                                <ImageView
+                                    android:layout_width="90dp"
+                                    android:layout_height="140dp"
+                                    android:src="@drawable/moonintheday_pt"/>
+
+                            </androidx.cardview.widget.CardView>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:text="Moon in the Day"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:textColor="@color/white"
+                                    android:textSize="13sp"
+                                    android:layout_height="wrap_content"/>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:text="Han Joon Oh adalah selebriti terkemuka Korea Selatan. Dia sangat tampan dan tinggi tetapi......"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:textColor="@color/white"
+                                    android:textSize="11sp"
+                                    android:layout_height="wrap_content"/>
+
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="horizontal">
+                                        <androidx.cardview.widget.CardView
+                                            android:id="@+id/tag4"
+                                            android:textColor="@color/white"
+                                            android:layout_marginLeft="5dp"
+                                            android:layout_marginTop="10dp"
+                                            android:layout_width="50dp"
+                                            android:layout_height="20dp"
+                                            android:padding="5dp"
+                                            app:cardCornerRadius="20dp"
+                                            android:textSize="12sp"
+                                            app:cardBackgroundColor="#2666ffe2">
+
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:textColor="@color/white"
+                                                android:textSize="7sp"
+                                                android:gravity="center"
+                                                android:textAlignment="center"
+                                                android:padding="5dp"
+
+                                                android:text="#FANTASY"/>
+
+                                        </androidx.cardview.widget.CardView>
+
+                                        <androidx.cardview.widget.CardView
+                                            android:id="@+id/ta3"
+                                            android:textColor="@color/white"
+                                            android:layout_marginLeft="2dp"
+                                            android:layout_marginTop="10dp"
+                                            android:layout_width="50dp"
+                                            android:layout_height="20dp"
+                                            android:padding="5dp"
+                                            app:cardCornerRadius="20dp"
+                                            android:textSize="12sp"
+                                            app:cardBackgroundColor="#2666ffe2">
+
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:textColor="@color/white"
+                                                android:textSize="7sp"
+                                                android:gravity="center"
+                                                android:textAlignment="center"
+                                                android:padding="5dp"
+
+                                                android:text="#THRILLER"/>
+
+                                        </androidx.cardview.widget.CardView>
+
+                                    </LinearLayout>
+
+
+
+                                </LinearLayout>
+                            </LinearLayout>
+                            </androidx.cardview.widget.CardView>
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="wrap_content"
+                                app:cardCornerRadius="8dp"
+                                android:id="@+id/cv_stranger"
+                                android:layout_marginLeft="10dp"
+                                app:cardBackgroundColor="#33808080"
+                                android:layout_height="wrap_content">
+                                <LinearLayout
+                                    android:layout_width="230dp"
+                                    android:layout_height="150dp"
+                                    android:background="#33808080"
+                                    android:orientation="horizontal">
+
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="88dp"
+                                        app:cardCornerRadius="5dp"
+                                        app:cardElevation="8dp"
+                                        android:layout_marginTop="5dp"
+                                        app:cardBackgroundColor="#00808080"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_height="138dp">
+
+                                        <ImageView
+                                            android:layout_width="90dp"
+                                            android:layout_height="140dp"
+                                            android:src="@drawable/moving_pt"/>
+
+                                    </androidx.cardview.widget.CardView>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:text="Moving"
+                                            android:layout_marginTop="10dp"
+                                            android:layout_marginLeft="10dp"
+                                            android:textColor="@color/white"
+                                            android:textSize="13sp"
+                                            android:layout_height="wrap_content"/>
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:text="Kim Bong Seok memiliki kemampuan terbang, sedangkan Jang Hee Soo memiliki memiliki kemampuan atletik...."
+                                            android:layout_marginTop="5dp"
+                                            android:layout_marginLeft="10dp"
+                                            android:textColor="@color/white"
+                                            android:textSize="11sp"
+                                            android:layout_height="wrap_content"/>
+
+
+                                        <LinearLayout
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="horizontal">
+                                            <androidx.cardview.widget.CardView
+                                                android:id="@+id/ta2"
+                                                android:textColor="@color/white"
+                                                android:layout_marginLeft="10dp"
+                                                android:layout_marginTop="10dp"
+                                                android:layout_width="50dp"
+                                                android:layout_height="20dp"
+                                                android:padding="5dp"
+                                                app:cardCornerRadius="20dp"
+                                                android:textSize="12sp"
+                                                app:cardBackgroundColor="#2666ffe2">
+
+                                                <TextView
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:textColor="@color/white"
+                                                    android:textSize="7sp"
+                                                    android:gravity="center"
+                                                    android:textAlignment="center"
+                                                    android:padding="5dp"
+
+                                                    android:text="#ACTION"/>
+
+                                            </androidx.cardview.widget.CardView>
+
+                                            <androidx.cardview.widget.CardView
+                                                android:id="@+id/tag1"
+                                                android:textColor="@color/white"
+                                                android:layout_marginTop="10dp"
+                                                android:layout_width="50dp"
+                                                android:layout_marginLeft="1dp"
+                                                android:layout_height="20dp"
+                                                android:padding="5dp"
+                                                app:cardCornerRadius="20dp"
+                                                android:textSize="12sp"
+                                                app:cardBackgroundColor="#2666ffe2">
+
+                                                <TextView
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:textColor="@color/white"
+                                                    android:textSize="7sp"
+                                                    android:gravity="center"
+                                                    android:textAlignment="center"
+                                                    android:padding="5dp"
+                                                    android:text="#MYSTERY"/>
+
+                                            </androidx.cardview.widget.CardView>
+
+                                        </LinearLayout>
+
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </androidx.cardview.widget.CardView>
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="wrap_content"
+                                app:cardCornerRadius="8dp"
+                                android:id="@+id/cv_wakanda"
+                                android:layout_marginLeft="10dp"
+                                app:cardBackgroundColor="#33808080"
+                                android:layout_height="wrap_content">
+                                <LinearLayout
+                                    android:layout_width="230dp"
+                                    android:layout_height="150dp"
+                                    android:background="#33808080"
+                                    android:orientation="horizontal">
+
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="88dp"
+                                        app:cardCornerRadius="5dp"
+                                        app:cardElevation="8dp"
+                                        android:layout_marginTop="5dp"
+                                        app:cardBackgroundColor="#00808080"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_height="138dp">
+
+                                        <ImageView
+                                            android:layout_width="90dp"
+                                            android:layout_height="140dp"
+                                            android:src="@drawable/mydemon_pt"/>
+
+                                    </androidx.cardview.widget.CardView>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:text="My Demon"
+                                            android:layout_marginTop="10dp"
+                                            android:layout_marginLeft="10dp"
+                                            android:textColor="@color/white"
+                                            android:textSize="13sp"
+                                            android:layout_height="wrap_content"/>
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:text="Do Do Hee adalah penerus Grup Masa Depan. Dia memiliki kepribadian arogan dan berkepala dingin....."
+                                            android:layout_marginTop="5dp"
+                                            android:layout_marginLeft="10dp"
+                                            android:textColor="@color/white"
+                                            android:textSize="11sp"
+                                            android:layout_height="wrap_content"/>
+
+
+                                        <LinearLayout
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="horizontal">
+                                            <androidx.cardview.widget.CardView
+                                                android:id="@+id/tag5"
+                                                android:textColor="@color/white"
+                                                android:layout_marginLeft="10dp"
+                                                android:layout_marginTop="10dp"
+                                                android:layout_width="50dp"
+                                                android:layout_height="20dp"
+                                                android:padding="5dp"
+                                                app:cardCornerRadius="20dp"
+                                                android:textSize="12sp"
+                                                app:cardBackgroundColor="#2666ffe2">
+
+                                                <TextView
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:textColor="@color/white"
+                                                    android:textSize="7sp"
+                                                    android:gravity="center"
+                                                    android:textAlignment="center"
+                                                    android:padding="5dp"
+
+                                                    android:text="#FANTASY"/>
+
+                                            </androidx.cardview.widget.CardView>
+
+                                            <androidx.cardview.widget.CardView
+                                                android:id="@+id/tag6"
+                                                android:textColor="@color/white"
+                                                android:layout_marginLeft="1dp"
+                                                android:layout_marginTop="10dp"
+                                                android:layout_width="50dp"
+                                                android:layout_height="20dp"
+                                                android:padding="5dp"
+                                                app:cardCornerRadius="20dp"
+                                                android:textSize="12sp"
+                                                app:cardBackgroundColor="#2666ffe2">
+
+                                                <TextView
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:textColor="@color/white"
+                                                    android:textSize="7sp"
+                                                    android:gravity="center"
+                                                    android:textAlignment="center"
+                                                    android:padding="5dp"
+
+                                                    android:text="#ROMANCE"/>
+
+                                            </androidx.cardview.widget.CardView>
+
+                                        </LinearLayout>
+
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </androidx.cardview.widget.CardView>
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="wrap_content"
+                                app:cardCornerRadius="8dp"
+                                android:id="@+id/cv_blacklist"
+                                android:layout_marginLeft="10dp"
+                                app:cardBackgroundColor="#33808080"
+                                android:layout_height="wrap_content">
+                                <LinearLayout
+                                    android:layout_width="230dp"
+                                    android:layout_height="150dp"
+                                    android:background="#33808080"
+                                    android:orientation="horizontal">
+
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="88dp"
+                                        app:cardCornerRadius="5dp"
+                                        app:cardElevation="8dp"
+                                        android:layout_marginTop="5dp"
+                                        app:cardBackgroundColor="#00808080"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_height="138dp">
+
+                                        <ImageView
+                                            android:layout_width="90dp"
+                                            android:layout_height="140dp"
+                                            android:src="@drawable/revenants_pt"/>
+
+                                    </androidx.cardview.widget.CardView>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:text="Revenant"
+                                            android:layout_marginTop="10dp"
+                                            android:layout_marginLeft="10dp"
+                                            android:textColor="@color/white"
+                                            android:textSize="13sp"
+                                            android:layout_height="wrap_content"/>
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:text=" Ketika pintu ke dunia lain terbuka, setan ada di sana. Ku San Young dirasuki oleh salah satu iblis itu....."
+                                            android:layout_marginTop="5dp"
+                                            android:layout_marginLeft="10dp"
+                                            android:textColor="@color/white"
+                                            android:textSize="11sp"
+                                            android:layout_height="wrap_content"/>
+
+
+                                        <LinearLayout
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="horizontal">
+                                            <androidx.cardview.widget.CardView
+                                                android:id="@+id/tag7"
+                                                android:textColor="@color/white"
+                                                android:layout_marginLeft="1dp"
+                                                android:layout_marginTop="10dp"
+                                                android:layout_width="50dp"
+                                                android:layout_height="20dp"
+                                                android:padding="5dp"
+                                                app:cardCornerRadius="20dp"
+                                                android:textSize="12sp"
+                                                app:cardBackgroundColor="#2666ffe2">
+
+                                                <TextView
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:textColor="@color/white"
+                                                    android:textSize="7sp"
+                                                    android:gravity="center"
+                                                    android:textAlignment="center"
+                                                    android:padding="5dp"
+
+                                                    android:text="#MYSTERY"/>
+
+                                            </androidx.cardview.widget.CardView>
+
+                                            <androidx.cardview.widget.CardView
+                                                android:id="@+id/tag8"
+                                                android:textColor="@color/white"
+                                                android:layout_marginLeft="1dp"
+                                                android:layout_marginTop="10dp"
+                                                android:layout_width="50dp"
+                                                android:layout_height="20dp"
+                                                android:padding="5dp"
+                                                app:cardCornerRadius="20dp"
+                                                android:textSize="12sp"
+                                                app:cardBackgroundColor="#2666ffe2">
+
+                                                <TextView
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:textColor="@color/white"
+                                                    android:textSize="7sp"
+                                                    android:gravity="center"
+                                                    android:textAlignment="center"
+                                                    android:padding="5dp"
+
+                                                    android:text="#THILLER"/>
+
+                                            </androidx.cardview.widget.CardView>
+
+                                        </LinearLayout>
+
+
+
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </androidx.cardview.widget.CardView>
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="wrap_content"
+                                app:cardCornerRadius="8dp"
+                                android:id="@+id/cv_frozen2"
+                                android:layout_marginLeft="10dp"
+                                app:cardBackgroundColor="#33808080"
+                                android:layout_height="wrap_content">
+                                <LinearLayout
+                                    android:layout_width="230dp"
+                                    android:layout_height="150dp"
+                                    android:background="#33808080"
+                                    android:orientation="horizontal">
+
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="88dp"
+                                        app:cardCornerRadius="5dp"
+                                        app:cardElevation="8dp"
+                                        android:layout_marginTop="5dp"
+                                        app:cardBackgroundColor="#00808080"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_height="138dp">
+
+                                        <ImageView
+                                            android:layout_width="90dp"
+                                            android:layout_height="140dp"
+                                            android:src="@drawable/vigilante_pt"/>
+
+                                    </androidx.cardview.widget.CardView>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:text="Vigilante"
+                                            android:layout_marginTop="10dp"
+                                            android:layout_marginLeft="10dp"
+                                            android:textColor="@color/white"
+                                            android:textSize="15sp"
+                                            android:layout_height="wrap_content"/>
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:text="Ketika Kim Ji Yong masih kecil, ibunya dipukuli sampai mati di jalan. Pelakunya hanya mendapat..."
+                                            android:layout_marginTop="5dp"
+                                            android:layout_marginLeft="10dp"
+                                            android:textColor="@color/white"
+                                            android:textSize="11sp"
+                                            android:layout_height="wrap_content"/>
+
+
+                                        <LinearLayout
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="horizontal">
+                                            <androidx.cardview.widget.CardView
+                                                android:id="@+id/tag9"
+                                                android:textColor="@color/white"
+                                                android:layout_marginLeft="10dp"
+                                                android:layout_marginTop="10dp"
+                                                android:layout_width="50dp"
+                                                android:layout_height="20dp"
+                                                android:padding="5dp"
+                                                app:cardCornerRadius="20dp"
+                                                android:textSize="12sp"
+                                                app:cardBackgroundColor="#2666ffe2">
+
+                                                <TextView
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:textColor="@color/white"
+                                                    android:textSize="7sp"
+                                                    android:gravity="center"
+                                                    android:textAlignment="center"
+                                                    android:padding="5dp"
+
+                                                    android:text="#ACTION"/>
+
+                                            </androidx.cardview.widget.CardView>
+
+                                            <androidx.cardview.widget.CardView
+                                                android:id="@+id/tag10"
+                                                android:textColor="@color/white"
+                                                android:layout_marginLeft="1dp"
+                                                android:layout_marginTop="10dp"
+                                                android:layout_width="50dp"
+                                                android:layout_height="20dp"
+                                                android:padding="5dp"
+                                                app:cardCornerRadius="20dp"
+                                                android:textSize="12sp"
+                                                app:cardBackgroundColor="#2666ffe2">
+
+                                                <TextView
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:textColor="@color/white"
+                                                    android:textSize="7sp"
+                                                    android:gravity="center"
+                                                    android:textAlignment="center"
+                                                    android:padding="5dp"
+
+                                                    android:text="#CRIME"/>
+
+                                            </androidx.cardview.widget.CardView>
+
+                                        </LinearLayout>
+
+
+
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </androidx.cardview.widget.CardView>
+
+
+
+                        </LinearLayout>
+
+                    </HorizontalScrollView>
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginBottom="3dp"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                app:cardCornerRadius="5dp"
+                android:background="@color/black"
+                android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="45dp"
+                android:src="@drawable/gifted"
+                android:layout_height="70dp"/>
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="310dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="60dp"
+                android:background="#66666666"
+
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="mentari"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="mentari"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/white" />
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#66666666"
+                android:layout_marginTop="10dp"
+
+                android:gravity="right"
+
+                android:layout_height="60dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/fullscreen"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+
+                android:background="#808080"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center"
+
+                android:layout_marginTop="7dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="left"
+
+                    android:src="@drawable/home"/>
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="25dp"
+                    android:src="@drawable/home"/>
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="25dp"
+
+                    android:src="@drawable/home"/>
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="25dp"
+                    android:src="@drawable/home"/>
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="25dp"
+                    android:src="@drawable/home"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

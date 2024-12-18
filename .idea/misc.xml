@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Backup/MentariFilm/app/src/main/res/layout/activity_detail1.xml" value="0.18469431380932022" />
+        <entry key="..\:/Backup/MentariFilm/app/src/main/res/layout/activity_detail_alice.xml" value="0.33" />
+        <entry key="..\:/Backup/MentariFilm/app/src/main/res/layout/activity_detail_blacklist.xml" value="0.33" />
+        <entry key="..\:/Backup/MentariFilm/app/src/main/res/layout/activity_detail_frozen2.xml" value="0.33" />
+        <entry key="..\:/Backup/MentariFilm/app/src/main/res/layout/activity_detail_gifted1.xml" value="0.18469431380932022" />
+        <entry key="..\:/Backup/MentariFilm/app/src/main/res/layout/activity_detail_hardlove.xml" value="0.33" />
+        <entry key="..\:/Backup/MentariFilm/app/src/main/res/layout/activity_detail_harry_potter.xml" value="0.33" />
+        <entry key="..\:/Backup/MentariFilm/app/src/main/res/layout/activity_detail_insidious.xml" value="0.33" />
+        <entry key="..\:/Backup/MentariFilm/app/src/main/res/layout/activity_detail_moving.xml" value="0.277992277992278" />
+        <entry key="..\:/Backup/MentariFilm/app/src/main/res/layout/activity_detail_my_demon.xml" value="0.36923076923076925" />
+        <entry key="..\:/Backup/MentariFilm/app/src/main/res/layout/activity_detail_perfect.xml" value="0.33" />
+        <entry key="..\:/Backup/MentariFilm/app/src/main/res/layout/activity_detail_revenant.xml" value="0.2134387351778656" />
+        <entry key="..\:/Backup/MentariFilm/app/src/main/res/layout/activity_detail_vigilante.xml" value="0.25" />
+        <entry key="..\:/Backup/MentariFilm/app/src/main/res/layout/activity_detail_wakanda.xml" value="0.33" />
+        <entry key="..\:/Backup/MentariFilm/app/src/main/res/layout/activity_detaill_moon_in_the_day.xml" value="0.263254113345521" />
+        <entry key="..\:/Backup/MentariFilm/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Backup/MentariFilm/app/src/main/res/layout/activity_preview_frozen2.xml" value="0.18426678067550234" />
+        <entry key="..\:/Backup/MentariFilm/app/src/main/res/layout/activity_rev_setting.xml" value="0.22" />
+        <entry key="..\:/Backup/MentariFilm/app/src/main/res/layout/activity_the_giftedd_detail.xml" value="0.33" />
+        <entry key="..\:/Backup/MentariFilm/app/src/main/res/layout/fotoprofile_popup.xml" value="0.18426678067550234" />
+        <entry key="..\:/Backup/MentariFilm/app/src/main/res/layout/list.xml" value="0.18426678067550234" />
+        <entry key="..\:/Backup/MentariFilm/app/src/main/res/layout/popup_device.xml" value="0.18426678067550234" />
+        <entry key="..\:/Backup/MentariFilm/app/src/main/res/layout/premium_cus.xml" value="0.18426678067550234" />
+        <entry key="..\:/Backup/MentariFilm/app/src/main/res/layout/spinner_des.xml" value="0.18426678067550234" />
+        <entry key="..\:/Backup/MentariFilm/app/src/main/res/menu/daftar_menu.xml" value="0.18426678067550234" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/drawable-v24/custom_button.xml" value="0.1945" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/drawable/back.xml" value="0.2115" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/drawable/button_part.xml" value="0.2115" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/drawable/button_status.xml" value="0.1945" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/drawable/custom_spinner.xml" value="0.2115" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/drawable/custom_tagar.xml" value="0.1945" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/drawable/fullscreen.xml" value="0.1945" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/drawable/home.xml" value="0.2115" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/drawable/ic_baseline_backup_24.xml" value="0.2115" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/drawable/ic_baseline_bookmark_add_24.xml" value="0.2115" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/drawable/ic_baseline_close_24.xml" value="0.2115" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/drawable/ic_baseline_notifications_24.xml" value="0.2115" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/drawable/ic_baseline_preview_24.xml" value="0.2115" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.2115" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/drawable/ic_baseline_swap_calls_24.xml" value="0.2115" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2115" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/drawable/list_jumlah.xml" value="0.1945" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/drawable/menu_cerita.xml" value="0.1945" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/layout/activity_detail1.xml" value="0.21" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/layout/activity_detail_alice.xml" value="0.22" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/layout/activity_detail_blacklist.xml" value="0.33" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/layout/activity_detail_episode.xml" value="0.25" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/layout/activity_detail_frozen2.xml" value="0.25" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/layout/activity_detail_gifted1.xml" value="0.25" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/layout/activity_detail_hardlove.xml" value="0.25" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/layout/activity_detail_harry_potter.xml" value="0.25" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/layout/activity_detail_insidious.xml" value="0.25" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/layout/activity_detail_myname.xml" value="0.25" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/layout/activity_detail_perfect.xml" value="0.25" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/layout/activity_detail_wakanda.xml" value="0.22" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/layout/activity_donglot.xml" value="0.25" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/layout/activity_download.xml" value="0.25" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/layout/activity_gifted.xml" value="0.25" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/layout/activity_jumlah_episode.xml" value="0.22" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/layout/activity_main_satu.xml" value="0.1675929884566054" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/layout/activity_new_download.xml" value="1.0" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/layout/activity_new_tagdrama.xml" value="0.1675929884566054" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/layout/activity_new_wishlish.xml" value="0.22" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/layout/activity_premium.xml" value="0.33" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/layout/activity_preview_alice.xml" value="0.33" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/layout/activity_preview_blacklist.xml" value="0.25" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/layout/activity_preview_frozen2.xml" value="0.25" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/layout/activity_preview_hardlove.xml" value="0.25" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/layout/activity_preview_harry_potter.xml" value="0.1675929884566054" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/layout/activity_preview_insidious.xml" value="0.25" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/layout/activity_preview_myname.xml" value="0.25" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/layout/activity_preview_perfect.xml" value="0.25" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/layout/activity_preview_wakanda.xml" value="0.25" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/layout/activity_profile.xml" value="0.33" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/layout/activity_recent.xml" value="0.25" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/layout/activity_rev_setting.xml" value="0.5" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/layout/activity_search.xml" value="0.25" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/layout/activity_setting.xml" value="0.3141025641025641" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/layout/activity_tagar_action.xml" value="0.33" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/layout/activity_tagar_adventure.xml" value="0.25" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/layout/activity_tagar_animation.xml" value="0.21" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/layout/activity_tagar_comedy.xml" value="0.1675929884566054" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/layout/activity_tagar_drama.xml" value="0.25" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/layout/activity_tagar_fantasy.xml" value="0.21" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/layout/activity_tagar_horror.xml" value="0.25" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/layout/activity_tagar_mystery.xml" value="0.21" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/layout/activity_tagar_romance.xml" value="0.25" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/layout/activity_tagar_thiller.xml" value="0.22" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/layout/activity_the_giftedd_detail.xml" value="0.2" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/layout/activity_thegifted.xml" value="0.25" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/layout/comingsoon.xml" value="0.21" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/layout/list.xml" value="0.21" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/layout/popup_device.xml" value="0.22" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/layout/premium_cus.xml" value="0.25" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/layout/spinner_des.xml" value="0.1675929884566054" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/layout/wishlist.xml" value="0.22" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/menu/daftar_menu.xml" value="0.1675929884566054" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/menu/ini_menu.xml" value="0.1675929884566054" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/mipmap-anydpi-v26/ic_newlauncher.xml" value="0.2115" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/mipmap-anydpi-v26/ic_newlauncher_round.xml" value="0.2115" />
+        <entry key="..\:/Pemrograman Mobile/MentariFilm/app/src/main/res/mipmap-anydpi-v26/ic_newlauncherlagi.xml" value="0.2115" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

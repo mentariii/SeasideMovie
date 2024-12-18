@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".detail_wakanda">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/iv_back"
+                    android:src="@drawable/back"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="right"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/share"
+                    android:src="@drawable/share"/>
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="15dp"
+                    android:id="@+id/ini_menu"
+                    android:src="@drawable/menu_cerita"/>
+            </LinearLayout>
+        </LinearLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:scrollbars="none"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/lsfi_blur"/>
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="280dp"
+                    android:layout_marginTop="-140dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/lovesongforillusion_pt"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Love Song for Illusion"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:textSize="21dp"
+                    android:textStyle="bold"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/rate45"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        app:cardCornerRadius="15dp"
+                        android:id="@+id/btn_view2"
+                        app:cardBackgroundColor="#c98110"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="3dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="32dp"
+                                android:layout_height="33dp"
+                                android:src="@drawable/ic_baseline_play_arrow_24"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:gravity="center"
+                                android:paddingRight="5dp"
+                                android:layout_marginRight="5dp"
+                                android:layout_gravity="center"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/white"
+                                android:textStyle="bold"
+                                android:textSize="16sp"
+                                android:text="Trailer"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="42dp"
+                        android:layout_marginLeft="10dp"
+                        app:cardBackgroundColor="#40808080"
+                        app:cardCornerRadius="35dp"
+                        android:id="@+id/cv_add"
+                        android:layout_height="42dp">
+
+                        <ImageView
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_baseline_bookmark_add_24"/>
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="180dp"
+                        android:layout_height="2dp"
+                        android:gravity="left"
+                        android:layout_marginTop="10dp"
+                        android:background="#808080"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Sinopis"
+                        android:gravity="center"
+                        android:textColor="@color/white"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:gravity="right"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="#808080"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="5dp"
+                            android:textColor="@color/white"
+                            android:text="Title "
+                            android:layout_marginRight="15dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="5dp"
+                            android:textColor="@color/white"
+                            android:text=": Love Song for Illusion"
+                            android:layout_marginRight="15dp"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="5dp"
+                            android:textColor="@color/white"
+                            android:text="Release "
+                            android:layout_marginRight="15dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="5dp"
+                            android:textColor="@color/white"
+                            android:text=": 2 Jan 2024"
+                            android:layout_marginRight="15dp"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="5dp"
+                            android:textColor="@color/white"
+                            android:text="Last Air Date  "
+                            android:layout_marginRight="15dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="5dp"
+                            android:textColor="@color/white"
+                            android:text=": 27 Feb 2024"
+                            android:layout_marginRight="15dp"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="5dp"
+                            android:textColor="@color/white"
+                            android:text="Country "
+                            android:layout_marginRight="15dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="5dp"
+                            android:textColor="@color/white"
+                            android:text=": South Korea"
+                            android:layout_marginRight="15dp"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="5dp"
+                            android:textColor="@color/white"
+                            android:text="Episode "
+                            android:layout_marginRight="15dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="5dp"
+                            android:textColor="@color/white"
+                            android:text=": 16"
+                            android:layout_marginRight="15dp"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="5dp"
+                            android:textColor="@color/white"
+                            android:text="Genre "
+                            android:layout_marginRight="15dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="5dp"
+                            android:textColor="@color/white"
+                            android:text=": Romance, Fantasy, Drama"
+                            android:layout_marginRight="15dp"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="5dp"
+                            android:textColor="@color/white"
+                            android:text="Production "
+                            android:layout_marginRight="15dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="5dp"
+                            android:text=": Monster Union"
+                            android:textColor="@color/white"
+                            android:layout_marginRight="15dp"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="5dp"
+                            android:textColor="@color/white"
+                            android:text="Director "
+                            android:layout_marginRight="15dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="5dp"
+                            android:textColor="@color/white"
+                            android:text=": Lee Jung-seop"
+                            android:layout_marginRight="15dp"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:text="     Ini menceritakan kisah cinta yang menggetarkan hati dan obsesi sengit seorang Raja dengan dua kepribadian berlawanan dan seorang gadis pembunuh yang ingin membunuhnya tetapi akhirnya jatuh cinta padanya. Putra Mahkota Sajo Hyun adalah karakter intelektual yang menggunakan akal artistik bawaannya untuk bekerja sebagai perancang busana di butik di pusat kota sambil menyembunyikan identitasnya sebagai putra mahkota. Dia memiliki luka di hatinya sejak masa kecilnya karena ayahnya yang menindas Sajo Seung. Kepribadian Sajo Hyun lainnya, Ak Hee, adalah karakter menawan yang dapat dengan mudah merayu orang lain, namun dia dikutuk untuk merasakan sakit yang luar biasa saat melakukan sentuhan fisik dengan orang lain. Yeon Wol menjalani kehidupan yang penuh liku-liku, mulai dari seorang pembunuh hingga menjadi selir. Yeon Wol adalah keturunan kerajaan dari Dinasti Yeon yang jatuh dan satu-satunya putri Yeon Poong Hak. Yeon Wol menyembunyikan identitasnya dan menjadi pembunuh Gye Ra untuk membalaskan dendam keluarganya. Saat mencoba membunuh raja, dia jatuh ke dalam perangkap yang dibuat oleh orang tak dikenal dan bangun keesokan harinya tanpa mengingat masa lalunya. "
+                    android:textColor="@color/white" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/tagar4"
+                        android:textColor="@color/white"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:padding="5dp"
+                        android:textSize="12sp"
+                        android:background="@drawable/custom_tagar"
+                        android:text="#Romance" />
+
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/tagar6"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:padding="5dp"
+                        android:textSize="12sp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/custom_tagar"
+                        android:text="#fantasy" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/ta8gar6"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:padding="5dp"
+                        android:textSize="12sp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/custom_tagar"
+                        android:text="#Drama" />
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#808080"/>
+
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

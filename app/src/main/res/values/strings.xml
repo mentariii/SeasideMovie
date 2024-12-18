@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">seaside movie</string>
+    <string-array name="bahasa">
+        <item>ENG</item>
+        <item>IND</item>
+    </string-array>
+</resources>

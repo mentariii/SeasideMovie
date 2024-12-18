@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.mentarii.mentarifilm">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_newlauncherlagi"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MentariFilm"
+        tools:targetApi="31">
+        <activity
+            android:name=".DetailVigilante"
+            android:exported="false" />
+        <activity
+            android:name=".DetailRevenant"
+            android:exported="false" />
+        <activity
+            android:name=".DetailMyDemon"
+            android:exported="false" />
+        <activity
+            android:name=".DetailMoving"
+            android:exported="false" />
+        <activity
+            android:name=".DetaillMoonInTheDay"
+            android:exported="false" />
+        <activity
+            android:name=".recent"
+            android:exported="false" />
+        <activity
+            android:name=".new_wishlish"
+            android:exported="false" />
+        <activity
+            android:name=".donglot"
+            android:exported="false" />
+        <activity
+            android:name=".new_download"
+            android:exported="false" />
+        <activity
+            android:name=".download"
+            android:exported="false" />
+        <activity
+            android:name=".rev_setting"
+            android:exported="false" />
+        <activity
+            android:name=".setting"
+            android:exported="false" />
+        <activity
+            android:name=".premium"
+            android:exported="false" />
+        <activity
+            android:name=".new_tagdrama"
+            android:exported="false" />
+        <activity
+            android:name=".profile"
+            android:exported="false" />
+        <activity
+            android:name=".preview_wakanda"
+            android:exported="false" />
+        <activity
+            android:name=".detail_wakanda"
+            android:exported="false" />
+        <activity
+            android:name=".preview_hardlove"
+            android:exported="false" />
+        <activity
+            android:name=".detail_hardlove"
+            android:exported="false" />
+        <activity
+            android:name=".preview_perfect"
+            android:exported="false" />
+        <activity
+            android:name=".detail_perfect"
+            android:exported="false" />
+        <activity
+            android:name=".tagar_action"
+            android:exported="false" />
+        <activity
+            android:name=".preview_alice"
+            android:exported="false" />
+        <activity
+            android:name=".detail_alice"
+            android:exported="false" />
+        <activity
+            android:name=".preview_blacklist"
+            android:exported="false" />
+        <activity
+            android:name=".detail_blacklist"
+            android:exported="false" />
+        <activity
+            android:name=".preview_frozen2"
+            android:exported="false" />
+        <activity
+            android:name=".detail_frozen2"
+            android:exported="false" />
+        <activity
+            android:name=".preview_myname"
+            android:exported="false" />
+        <activity
+            android:name=".detail_myname"
+            android:exported="false" />
+        <activity
+            android:name=".preview_insidious"
+            android:exported="false" />
+        <activity
+            android:name=".detail_insidious"
+            android:exported="false" />
+        <activity
+            android:name=".tagar_drama"
+            android:exported="false" />
+        <activity
+            android:name=".tagar_animation"
+            android:exported="false" />
+        <activity
+            android:name=".tagar_adventure"
+            android:exported="false" />
+        <activity
+            android:name=".tagar_comedy"
+            android:exported="false" />
+        <activity
+            android:name=".tagar_mystery"
+            android:exported="false" />
+        <activity
+            android:name=".tagar_horror"
+            android:exported="false" />
+        <activity
+            android:name=".tagar_romance"
+            android:exported="false" />
+        <activity
+            android:name=".tagar_fantasy"
+            android:exported="false" />
+        <activity
+            android:name=".tagar_thiller"
+            android:exported="false" />
+        <activity
+            android:name=".preview_HarryPotter"
+            android:exported="false" />
+        <activity
+            android:name=".detailHarryPotter"
+            android:exported="false" />
+        <activity
+            android:name=".detailGifted1"
+            android:exported="false" />
+        <activity
+            android:name=".TheGiftedd_detail"
+            android:exported="false" />
+        <activity
+            android:name=".DetailEpisode"
+            android:exported="false" />
+        <activity
+            android:name=".main_satu"
+            android:exported="false" />
+        <activity
+            android:name=".jumlahEpisode"
+            android:exported="false" />
+        <activity
+            android:name=".detail1"
+            android:exported="false" />
+        <activity
+            android:name=".search"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
